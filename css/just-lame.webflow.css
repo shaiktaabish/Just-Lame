@@ -1,0 +1,818 @@
+a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.body {
+  color: #272727;
+  font-family: Inter, sans-serif;
+  font-size: 1vw;
+  line-height: 150%;
+}
+
+.nav-wrap {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.flex-apart {
+  width: 100%;
+  flex-flow: row;
+  flex: 0 auto;
+  order: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+
+.flex-apart.align-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-apart.align-center.gap-24px {
+  grid-column-gap: 1.2em;
+  grid-row-gap: 1.2em;
+  justify-content: center;
+  position: relative;
+}
+
+.nav--link {
+  text-align: center;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  padding: .5em 0;
+  font-family: Wicked Mouse Demo, sans-serif;
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 140%;
+  display: flex;
+}
+
+.nav--link.w--current {
+  color: #000;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #2cda00, #00d1ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-center-align {
+  grid-column-gap: 3.75em;
+  grid-row-gap: 3.75em;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  display: flex;
+}
+
+.logo {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container.relative-1 {
+  position: relative;
+}
+
+.container.flex-center {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.navbar {
+  z-index: 1;
+  width: 100%;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 13.38em;
+  padding-right: 12.31em;
+  position: relative;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.nav-padding {
+  width: 100%;
+  height: 2.56em;
+}
+
+.logo-wrap {
+  max-width: 9.88em;
+}
+
+.logo-wrap.tablet-only {
+  display: none;
+}
+
+.logo-wrap.tablet-hide {
+  max-width: 10.06em;
+}
+
+.nav-bg-color {
+  width: 100%;
+  opacity: 0;
+  background-color: #000209;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.parent-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+.section {
+  padding-left: 12.31em;
+  padding-right: 12.31em;
+}
+
+.section.hero {
+  background-image: url('../images/hero-bg.png');
+  background-position: 50% 100%;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.section.relative {
+  position: relative;
+}
+
+.padding-225-157px {
+  padding-top: 12em;
+  padding-bottom: 9.81em;
+}
+
+.black-25px {
+  color: #272727;
+  font-size: 1.56em;
+  font-weight: 900;
+}
+
+.max-537-56 {
+  width: 100%;
+  max-width: 33.6em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.padding-20-40px {
+  padding-top: 1.25em;
+  padding-bottom: 2.5em;
+}
+
+.black-36px {
+  font-size: 2.25em;
+  font-weight: 900;
+  line-height: 150%;
+}
+
+.black-36px.all-cap {
+  text-transform: uppercase;
+}
+
+.meme-photo {
+  width: 100%;
+  max-width: 32em;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  top: 0%;
+  bottom: -25%;
+  left: -7%;
+  right: auto;
+}
+
+.padding-100-130px {
+  padding-top: 6.25em;
+  padding-bottom: 8.13em;
+}
+
+.max-279-77 {
+  max-width: 17.49em;
+  float: left;
+  clear: left;
+  transform-style: preserve-3d;
+  display: inline;
+  position: relative;
+  top: 3.4em;
+  left: -4.9em;
+}
+
+.black-68px {
+  max-width: 6.7em;
+  min-width: 6.7em;
+  color: #272727;
+  text-align: right;
+  font-family: Wicked Mouse Demo, sans-serif;
+  font-size: 4.25em;
+  font-weight: 900;
+  line-height: 110%;
+  display: inline-block;
+}
+
+.black-68px.align-left {
+  text-align: left;
+  line-height: 100%;
+}
+
+.max-532px {
+  max-width: 33.25em;
+}
+
+.content-align-center {
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.medium-24px {
+  text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 151%;
+}
+
+.padding-22-75px {
+  text-align: center;
+  padding-top: 1.38em;
+  padding-bottom: 4.69em;
+}
+
+.black-24px {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+  line-height: 151%;
+}
+
+.black-24px.gradient-text {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #2cda00, #00d1ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.black-24px.all-cap {
+  text-transform: uppercase;
+}
+
+.black-24px.all-cap.gradient-text {
+  display: inline;
+}
+
+.black-24px.all-cap.gradient-text.blocks {
+  display: block;
+}
+
+.black-24px.all-cap.gradient-text.gap-2px {
+  padding-left: .31em;
+  padding-right: .31em;
+}
+
+.black-24px.all-cap.gradient-text.l-5 {
+  padding-right: .31em;
+}
+
+.black-24px.all-cap.block {
+  display: inline-block;
+}
+
+.padding-top-75px {
+  padding-top: 4.69em;
+}
+
+.gradient {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #2cda00, #00d1ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.gradient.bold-all-cap {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.gradient.black {
+  font-weight: 900;
+}
+
+.padding-160-160 {
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+.max-313 {
+  max-width: 19.56em;
+}
+
+.flex-align-center {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.flex-align-center.gap-24px {
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1.5em;
+}
+
+.flex-align-center.width-100 {
+  width: 100%;
+}
+
+.flex-align-center.width-100.z-1 {
+  z-index: 1;
+  position: relative;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  min-height: 1px;
+  background-color: #000;
+}
+
+.line._151-74 {
+  margin-top: 9.44em;
+  margin-bottom: 4.63em;
+}
+
+.padding-bottom-50px {
+  margin-bottom: 3.13em;
+}
+
+.gap-38px {
+  width: 100%;
+  grid-column-gap: 2.38em;
+  grid-row-gap: 2.38em;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.para-32px {
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 100%;
+}
+
+.para-32px.min-width {
+  min-width: 14.9em;
+}
+
+.number {
+  font-family: Wicked Mouse Demo, sans-serif;
+  font-weight: 900;
+}
+
+.max-269 {
+  max-width: 16.81em;
+  position: absolute;
+  top: auto;
+  bottom: 1%;
+  left: 2%;
+  right: auto;
+}
+
+.max-269.leg {
+  max-width: 10.6em;
+  left: 19%;
+}
+
+.padding-70-24px {
+  padding-top: 4.38em;
+  padding-bottom: 1.5em;
+}
+
+.padding-28-28 {
+  padding-top: 1.75em;
+  padding-bottom: 1.75em;
+}
+
+.max-262-85 {
+  width: 100%;
+  max-width: 16.43em;
+}
+
+.social-wrap {
+  width: 100%;
+  max-width: 4.86em;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.icon-embed-custom {
+  width: 1.75em;
+  height: 1.75em;
+  opacity: .9;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s;
+  display: flex;
+}
+
+.icon-embed-custom:hover {
+  opacity: 1;
+}
+
+.para-16px {
+  color: #b7b7b7;
+  text-align: center;
+  font-size: 1em;
+  line-height: 150%;
+}
+
+.padding-top-50px {
+  padding-top: 3.13em;
+}
+
+.strip-shoadow {
+  width: 100%;
+  position: absolute;
+  top: -10%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+  transform: scale(1.2);
+}
+
+.white-strip {
+  width: 100%;
+  height: 15em;
+  background-color: #fff;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.white-strip._10 {
+  height: 5%;
+}
+
+.white-strip.footer {
+  top: 3%;
+}
+
+.hero {
+  width: 100%;
+  background-image: url('../images/hero-bg.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-bar-strip {
+  z-index: 0;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+  transform: scale(1.25);
+}
+
+.counterup {
+  font-family: Wicked Mouse Demo, sans-serif;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 991px) {
+  .body {
+    font-size: 1.2vw;
+  }
+
+  .nav-wrap {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #fff;
+    padding-top: 2em;
+  }
+
+  .menu-icon_line-bottom {
+    width: 24px;
+    height: 2px;
+    background-color: #000;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+
+  .flex-apart {
+    max-height: 100%;
+  }
+
+  .flex-apart.flex-center {
+    align-items: center;
+  }
+
+  .nav--link {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5em;
+  }
+
+  .menu-icon-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: -.5rem;
+    padding-bottom: 0;
+    padding-right: 0;
+    display: flex;
+  }
+
+  .nav-center-align {
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+
+  .menu-icon_line-middle {
+    width: 24px;
+    height: 2px;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-bottom: 0;
+    padding-right: 0;
+    display: flex;
+  }
+
+  .menu-button-2.w--open {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .menu-icon_line-middle-inner {
+    width: 4px;
+    height: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+
+  .container.relative-1.tablet-side-pad {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .logo-wrap.tablet-only {
+    display: block;
+  }
+
+  .logo-wrap.tablet-hide {
+    display: none;
+  }
+
+  .menu-icon_line-top {
+    width: 24px;
+    height: 2px;
+    background-color: #000;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+
+  .section {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  .meme-photo {
+    max-width: 25em;
+    left: -7%;
+  }
+
+  .max-279-77 {
+    max-width: 12em;
+    left: -1.3em;
+  }
+
+  .max-269 {
+    max-width: 12em;
+  }
+
+  .max-269.leg {
+    max-width: 9em;
+    left: 20%;
+  }
+
+  .white-strip._10 {
+    height: 10%;
+  }
+
+  .nav-bar-strip {
+    top: 5%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .body {
+    font-size: 1.5vw;
+  }
+
+  .flex-apart {
+    align-items: center;
+  }
+
+  .menu-button-2 {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .container.flex-apart {
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1.5em;
+  }
+
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav-padding {
+    height: 2em;
+  }
+
+  .section {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .meme-photo {
+    max-width: 20em;
+    bottom: 6%;
+  }
+
+  .padding-160-160 {
+    padding-bottom: 20em;
+  }
+
+  .max-269.leg {
+    left: 24%;
+  }
+
+  .nav-bar-strip {
+    top: 8%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .body {
+    font-size: 3vw;
+  }
+
+  .nav-wrap {
+    padding-top: 1em;
+  }
+
+  .flex-apart {
+    max-height: none;
+    flex-direction: column;
+  }
+
+  .flex-apart.align-center {
+    flex-direction: column;
+  }
+
+  .flex-apart.flex-center {
+    flex-direction: row;
+  }
+
+  .nav--link {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1em;
+    display: flex;
+  }
+
+  .nav-center-align {
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1.5em;
+    padding-top: 1em;
+  }
+
+  .container.relative-1.tablet-side-pad {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .container.flex-apart.inverse-m {
+    grid-column-gap: 6.25em;
+    grid-row-gap: 6.25em;
+    flex-direction: column-reverse;
+  }
+
+  .nav-padding {
+    height: .7em;
+  }
+
+  .padding-225-157px {
+    text-align: center;
+  }
+
+  .max-537-56 {
+    max-width: 25em;
+  }
+
+  .meme-photo {
+    max-width: 13em;
+    bottom: 39%;
+    left: -10%;
+  }
+
+  .padding-100-130px {
+    padding-top: 2em;
+  }
+
+  .max-279-77 {
+    left: 1.1em;
+    transform: rotateX(0)rotateY(180deg)rotateZ(0);
+  }
+
+  .black-68px.align-left {
+    text-align: center;
+  }
+
+  .gap-38px {
+    grid-column-gap: 5em;
+    grid-row-gap: 5em;
+  }
+
+  .number {
+    display: block;
+  }
+
+  .max-269.leg {
+    left: 40%;
+  }
+
+  .max-262-85 {
+    max-width: 14em;
+  }
+
+  .strip-shoadow {
+    top: -6%;
+  }
+
+  .white-strip._10 {
+    height: 5em;
+  }
+}
+
+
+@font-face {
+  font-family: 'Wicked Mouse Demo';
+  src: url('../fonts/Wicked-Mouse-Demo.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
